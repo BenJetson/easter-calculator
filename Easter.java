@@ -3,7 +3,9 @@ import java.time.Month;
 import java.time.Year;
 
 /**
- * Calculates the date of Easter for a given year.
+ * Calculates the date of Easter for a given year using the 
+ * Gauss Easter algorithm developed by Carl Friedrich Gauss
+ * in 1816.
  *
  * @author Ben Godfrey;
  * @version 30 MAR 2018;
