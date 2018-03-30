@@ -2,6 +2,12 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.time.Year;
 
+/**
+ * Calculates the date of Easter for a given year.
+ *
+ * @author Ben Godfrey;
+ * @version 30 MAR 2018;
+ */
 public class Easter {
     
     private int a;
@@ -81,7 +87,7 @@ public class Easter {
     }
 
     public String toString() {
-        return String.format("[Easter: a=%d, b=%d, c=%d, k=%d, p=%d, q=%d, m=%d, n=%d, d=%d, e=%d, date=%s",
+        return String.format("[Easter: a=%d, b=%d, c=%d, k=%d, p=%d, q=%d, m=%d, n=%d, d=%d, e=%d, date=%s]",
                              a, b, c, k, p, q, m, n, d, e, date.toString());
     }
 
